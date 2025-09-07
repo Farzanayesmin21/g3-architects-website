@@ -128,8 +128,20 @@ nav-link{
 
 }
 .featured-architect img{
-    width: 800 px;
+    width:100%;
 }
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700px;
+}
+.featured-architect i
 
 /* some facts related style  */
 .facts-container{
@@ -200,6 +212,10 @@ nav-link{
  .sponsor-companies{
     justify-items: center;
     gap: 50px;
+ }
+ #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
  }
 /* medium size device  */
 @media screen and (min-width:576px) and (max-width:992px) {
